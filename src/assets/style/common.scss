@@ -1,0 +1,13 @@
+$themeColor: #4184f2;
+$lineColor: #eee;
+
+ul, li, ol, dl, dt, dd, div, p, span, h1, h2, h3, h4, h5, h6, a {
+  padding: 0;
+  margin: 0
+}
+
+.common-border-rb {
+  border-bottom: solid 1px $lineColor;
+  border-right: solid 1px $lineColor;
+}
+

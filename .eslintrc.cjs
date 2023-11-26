@@ -5,7 +5,8 @@ module.exports = {
     },
     'extends': [
         'eslint:recommended',
-        'plugin:vue/vue3-essential'
+        'plugin:vue/vue3-essential',
+        'plugin:prettier/recommended'
     ],
     'overrides': [
         {
@@ -13,7 +14,7 @@ module.exports = {
                 'node': true
             },
             'files': [
-                '.eslintrc.{js,cjs}'
+                '.eslintrc.{js,cjs,vue}'
             ],
             'parserOptions': {
                 'sourceType': 'script'
