@@ -94,6 +94,7 @@ const onClickClearSelectSchedule = () => {
     background: transparent;
     color: $themeColor;
     border: none;
+    outline: none;
   }
 
   &__panel {

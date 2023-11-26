@@ -89,5 +89,15 @@ const onClickSelectWeekendSchedule = () => {
 
 .button-group {
   margin-top: 24px;
+
+  &__item {
+    background-color: $themeColor;
+    color: #fff;
+    outline: none;
+
+    &:last-child {
+      margin-left: 24px;
+    }
+  }
 }
 </style>
